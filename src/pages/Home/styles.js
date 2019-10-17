@@ -32,40 +32,48 @@ export const ProductList = styled.ul`
       font-weight: bold;
       margin: 5px 0 20px;
     }
+  }
+`;
 
-    button {
-      background: #7159c1;
-      color: #fff;
-      border: 0;
-      border-radius: 4px;
-      overflow: hidden;
-      margin-top: auto;
+export const AddProductButton = styled.button`
+  background: #211451;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: auto;
 
-      display: flex;
-      align-items: center;
-      transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s;
 
-      &:hover {
-        background: ${darken(0.03, '#7159c1')};
-      }
+  &:hover {
+    background: ${darken(0.03, '#211451')};
+  }
 
-      div {
-        display: flex;
-        align-items: center;
-        padding: 12px;
-        background: rgba(0, 0, 0, 0.1);
+  div {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.1);
 
-        svg {
-          margin-right: 5px;
-        }
-      }
-
-      span {
-        flex: 1;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-      }
+    svg {
+      margin-right: 5px;
     }
   }
+
+  span {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+`;
+
+export const DetailsLink = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: left;
 `;

@@ -5,6 +5,7 @@ import background from '../assets/images/background.svg';
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
 
   * {
     margin: 0;
@@ -19,7 +20,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 14px Roboto, sans-serif;
+    font: 14px Poppins, Roboto, sans-serif;
   }
 
   #root {
