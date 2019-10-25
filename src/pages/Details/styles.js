@@ -4,7 +4,7 @@ import LinesEllipsis from 'react-lines-ellipsis';
 import { darken } from 'polished';
 
 export const Container = styled.div`
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255);
   border-radius: 4px;
   padding: 20px;
 `;

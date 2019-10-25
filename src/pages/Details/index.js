@@ -12,7 +12,6 @@ import {
   ShortDescription,
   CollapsedDescription,
   Photo,
-  Thumbs,
   Preview,
   BuyBox,
   Price,

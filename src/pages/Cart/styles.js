@@ -29,10 +29,18 @@ export const Container = styled.div`
   }
 `;
 
+export const DetailsLink = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: left;
+`;
+
 export const ProductTable = styled.table`
   width: 100%;
 
-  thead th {
+  thead tr th {
     color: #999;
     text-align: left;
     text-transform: uppercase;
@@ -95,3 +103,4 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+

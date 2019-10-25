@@ -6,9 +6,10 @@ import {
   MdDelete,
 } from 'react-icons/md';
 
-import { Container, ProductTable, Total } from './styles';
-import { formatPrice } from '../../util/format';
-import * as CartActions from '../../store/modules/cart/actions';
+import history from '~/services/history';
+import { Container, DetailsLink, ProductTable, Total } from './styles';
+import { formatPrice } from '~/util/format';
+import * as CartActions from '~/store/modules/cart/actions';
 
 export default function Cart() {
   const cart = useSelector(state =>
@@ -37,25 +38,46 @@ export default function Cart() {
     dispatch(CartActions.updateAmountRequest(product.id, product.amount - 1));
   }
 
+  function handleCheckout() {
+    history.push('/checkout');
+  }
+
+  async function openProductDetails(product) {
+    console.tron.log('product - cart', product);
+    history.push(`products/${product.id}`, {
+      product,
+      amount: product.amount,
+    });
+  }
+
   return (
     <Container>
       <ProductTable>
         <thead>
-          <th />
-          <th>PRODUTO</th>
-          <th>QTD</th>
-          <th>SUBTOTAL</th>
-          <th />
+          <tr>
+            <th />
+            <th>PRODUTO</th>
+            <th>QTD</th>
+            <th>SUBTOTAL</th>
+            <th />
+          </tr>
         </thead>
 
         <tbody>
           {cart.map(product => (
-            <tr>
+            <tr key={product.id}>
               <td>
-                <img src={product.image} alt={product.title} />
+                <DetailsLink type="button" onClick={() => openProductDetails(product)}>
+                  <img src={product.image} alt={product.title} />
+                </DetailsLink>
               </td>
               <td>
-                <strong>{product.title}</strong>
+                <strong>
+                  <DetailsLink type="button" onClick={() => openProductDetails(product)}>
+                    {product.title}
+                  </DetailsLink>
+                </strong>
+                
                 <span>{product.formattedPrice}</span>
               </td>
               <td>
@@ -88,7 +110,7 @@ export default function Cart() {
       </ProductTable>
 
       <footer>
-        <button type="button">Finalizar pedido</button>
+        <button type="button" onClick={() => handleCheckout()}>Finalizar pedido</button>
 
         <Total>
           <span>TOTAL</span>
