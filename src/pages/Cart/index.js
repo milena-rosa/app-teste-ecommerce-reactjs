@@ -67,17 +67,23 @@ export default function Cart() {
           {cart.map(product => (
             <tr key={product.id}>
               <td>
-                <DetailsLink type="button" onClick={() => openProductDetails(product)}>
+                <DetailsLink
+                  type="button"
+                  onClick={() => openProductDetails(product)}
+                >
                   <img src={product.image} alt={product.title} />
                 </DetailsLink>
               </td>
               <td>
                 <strong>
-                  <DetailsLink type="button" onClick={() => openProductDetails(product)}>
+                  <DetailsLink
+                    type="button"
+                    onClick={() => openProductDetails(product)}
+                  >
                     {product.title}
                   </DetailsLink>
                 </strong>
-                
+
                 <span>{product.formattedPrice}</span>
               </td>
               <td>
@@ -110,7 +116,9 @@ export default function Cart() {
       </ProductTable>
 
       <footer>
-        <button type="button" onClick={() => handleCheckout()}>Finalizar pedido</button>
+        <button type="button" onClick={() => handleCheckout()}>
+          Finalizar pedido
+        </button>
 
         <Total>
           <span>TOTAL</span>

@@ -14,11 +14,22 @@ export default function Payment() {
       <h1>Escolha a forma de pagamento</h1>
       <form>
         <div>
-          <input type="radio" name="paymentMethod" id="billet" value="billet" defaultChecked />
+          <input
+            type="radio"
+            name="paymentMethod"
+            id="billet"
+            value="billet"
+            defaultChecked
+          />
           <label htmlFor="billet">Boleto</label>
         </div>
         <div>
-          <input type="radio" name="paymentMethod" id="creditCard" value="creditCard" />
+          <input
+            type="radio"
+            name="paymentMethod"
+            id="creditCard"
+            value="creditCard"
+          />
           <label htmlFor="creditCard">Credit Card</label>
         </div>
         <div>
