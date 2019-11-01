@@ -1,0 +1,102 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Tênis Nike Downshifter 9 Masculino - Preto e Branco",
+      "price": 189.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom1.jpg",
+      "description": "Aumente sua adrenalina com a ajuda do Tênis Nike Downshifter 9 Masculino. Ideal para corridas leves e caminhadas, esse tênis masculino possui construção em mesh para circulação de ar, proporcionando maior conforto durante os seus treinos.",
+      "indicatedFor": "Corrida",
+      "material": "Mesh",
+      "category": "Jogging",
+      "composition": "Cabedal: Mesh; Entressola: Espuma; Solado: Borracha",
+      "origin": "Nacional"
+    },
+    {
+      "id": 2,
+      "title": "Tênis Nike Revolution 4 Masculino - Cinza e Azul",
+      "price": 149.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-4-masculino/40/D12-9119-240/D12-9119-240_zoom1.jpg",
+      "description": "O Nike Revolution 4 é um tênis de corrida minimalista em todos os sentidos. Cada detalhe dele foi pensado para agradar aos esportistas que são adeptas desse estilo de calçado masculino. Estruturalmente, esse Tênis Nike traz o conceito de design mínimo com conforto máximo, representado em seu cabedal através de uma camada única de mesh muito mais leve que o convencional, cujo material ainda permite uma entrada adequada de ventilação dos pés. Outro diferencial do calçado, esse tênis para corrida Nike contém bolsas moldadas com função dupla na parte interior de sua estrutura. Essas micro regiões favorecem inicialmente o amortecimento, já que se achatam imediatamente após o impacto para, em seguida, reagirem se expandindo, favorecendo a saída do pé em uma nova passada. Para completar, o Tênis de Running Nike Revolution 4 possui entressola em espuma tecnológica Phylon, que realiza o amortecimento superior com a vantagem de ser mais leve que os materiais comuns. Todos esses pequenos detalhes compõem um Tênis Running Nike moderno, eficiente e confortável.",
+      "indicatedFor": "Dia a dia",
+      "material": "Mesh",
+      "category": "Leveza/Velocidade",
+      "composition": "Cabedal: em Mesh, tecido de tramas abertas que garante máxima ventilação. Entressola: palmilha macia em EVA. Solado: em borracha flexível que garante boa tração na corrida.",
+      "origin": "Estrangeira"
+    },
+    {
+      "id": 3,
+      "title": "Tênis Nike Sb Check Solar Cnvs Masculino - Preto e Marrom",
+      "price": 219.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-sb-check-solar-cnvs-masculino/56/D12-2759-256/D12-2759-256_zoom1.jpg",
+      "description": "Com uma pegada casual e esportiva, o Nike SB Check Solar SNVS é um sneaker para os fãs da cultura street e do skate. Seu visual minimalista e despojado traz a logo em destaque e faz sucesso por onde passa. O cabedal em lona proporciona maior ventilação com um ajuste perfeito e a palmilha Solarsoft apresenta dupla densidade para um conforto único. Além disso, o solado de borracha recebe construção vulcanizada para flexibilidade e aderência, com pontos de giro no antepé, que ajudam na passada e na mudança de direção. Sem dúvidas, o tênis Nike Sb Check Solar Cnvs tem um design democrático que faz o estilo nas pistas de skate e nos passeios com a galera.",
+      "indicatedFor": "Dia a dia",
+      "material": "Têxtil",
+      "category": "Casual",
+      "composition": "Cabedal: Têxtil; Solado: Borracha",
+      "origin": "Nacional"
+    },
+    {
+      "id": 4,
+      "title": "Tênis Adidas Grand Court Base Feminino - Off White",
+      "price": 199.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg",
+      "description": "Inspirado nos calçados clássicos dos anos 70, o Tênis Adidas Grand Court Base Feminino é ideal para as mulheres que buscam dar uma repaginada no guarda-roupa. Com excelente ventilação interna, o modelo possui as três listras laterais icônicas da marca e solado emborrachado que garante aderência. Aposte em você, compre já o seu!",
+      "indicatedFor": "Dia a dia",
+      "material": "Sintético",
+      "category": "Casual",
+      "composition": "Cabedal: Têxtil; Solado: Borracha",
+      "origin": "Nacional"
+    },
+    {
+      "id": 5,
+      "title": "Tênis New Balance 574 Feminino - Cinza e Azul",
+      "price": 299.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-new-balance-574-feminino/40/D17-1148-240/D17-1148-240_zoom1.jpg",
+      "description": "O Tênis New Balance 574 Feminino é um modelo confortável e cheio de estilo para acompanhar o dia a dia. Seguindo uma trend athleisure, propõe um design criativo e máximo conforto.",
+      "indicatedFor": "Dia a dia",
+      "material": "Couro",
+      "category": "Casual",
+      "composition": "Cabedal: Couro; Solado: Borracha",
+      "origin": "Estrangeira"
+    },
+    {
+      "id": 6,
+      "title": "Tênis Mizuno Wave Prorunner 23 Feminino - Grafite e Branco",
+      "price": 528.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-mizuno-wave-prorunner-23-feminino/94/D16-4960-994/D16-4960-994_zoom1.jpg",
+      "description": "Em nova versão, o Tênis Mizuno Wave Prorunner 23 é perfeito para treinos intensos, conta com cabedal em Airmesh, que proporciona ventilação interna, atribuindo um toque seco. Sua entressola desenvolvida em EVA conta com as tecnologias U4ic e U4icX, com resposta rápida, maciez, e também maior durabilidade em zonas de maior desgaste, além da placa Wave no calcanhar, capaz de fornecer passadas muito mais suaves, super conforto e segurança para os corredores. O solado é projetado em borracha X10, juntamente do recurso Smooth Ride que consegue manter o solado com mais leveza e alta durabilidade. Principais características do Tênis Mizuno Wave Prorunner 23: Cabedal: Airmesh e recortes em material sintético Fechamento: Cadarço Lingueta: Macia e flexível, em mesh. Palmilha: Removível Entressola: EVA, com tecnologias Wave, U4ic e U4icX Solado: Borracha X10 e Smooth Ride Forro: Têxtil Tecnologias: Airmesh, Mizuno Wave, U4ic, U4icX, X10, Smooth Ride Logo: Mizuno, alto relevo na lingueta. Tipo de Pisada: Neutra Indicado Para: Corrida Tipo: Running Performance Origem: Importado",
+      "indicatedFor": "Running",
+      "material": "Mesh",
+      "category": "Jogging",
+      "composition": "Cabedal: Mesh; Entressola: EVA; Solado: Borracha",
+      "origin": "Nacional"
+    }
+  ]
+}
