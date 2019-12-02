@@ -101,37 +101,34 @@
   ],
   "users": [
     {
-      "id": 9773803
+      "login": "streamich"
     },
     {
-      "id": 7637832
+      "login": "takahirox"
     },
     {
-      "id": 97088
+      "login": "mrdoob"
     },
     {
-      "id": 1136893
+      "login": "dcodeIO"
     },
     {
-      "id": 1460997
+      "login": "thestr4ng3r"
     },
     {
-      "id": 12021443
+      "login": "splincode"
     },
     {
-      "id": 11698516
+      "login": "aleju"
     },
     {
-      "id": 6180
+      "login": "carllerche"
     },
     {
-      "id": 1
+      "login": "fatih"
     },
     {
-      "id": 438920
-    },
-    {
-      "id": 4516927
+      "login": "philipperemy"
     }
   ]
 }
