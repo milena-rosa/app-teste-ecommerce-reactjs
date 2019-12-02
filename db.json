@@ -101,34 +101,54 @@
   ],
   "users": [
     {
-      "login": "streamich"
+      "login": "streamich",
+      "name": "Vadim Dalecky",
+      "avatar": "https://avatars2.githubusercontent.com/u/9773803?v=4"
     },
     {
-      "login": "takahirox"
+      "login": "takahirox",
+      "name": "Takahiro",
+      "avatar": "https://avatars2.githubusercontent.com/u/7637832?v=4"
     },
     {
-      "login": "mrdoob"
+      "login": "mrdoob",
+      "name": "Mr.doob",
+      "avatar": "https://avatars0.githubusercontent.com/u/97088?v=4"
     },
     {
-      "login": "dcodeIO"
+      "login": "dcodeIO",
+      "name": "Daniel Wirtz",
+      "avatar": "https://avatars0.githubusercontent.com/u/1136893?v=4"
     },
     {
-      "login": "thestr4ng3r"
+      "login": "thestr4ng3r",
+      "name": "Florian Märkl",
+      "avatar": "https://avatars0.githubusercontent.com/u/1460997?v=4"
     },
     {
-      "login": "splincode"
+      "login": "splincode",
+      "name": "Max Ivanov",
+      "avatar": "https://avatars3.githubusercontent.com/u/12021443?v=4"
     },
     {
-      "login": "aleju"
+      "login": "aleju",
+      "name": "Alexander Jung",
+      "avatar": "https://avatars0.githubusercontent.com/u/11698516?v=4"
     },
     {
-      "login": "carllerche"
+      "login": "carllerche",
+      "name": "Carl Lerche",
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4"
     },
     {
-      "login": "fatih"
+      "login": "fatih",
+      "name": "Fatih Arslan",
+      "avatar": "https://avatars1.githubusercontent.com/u/438920?v=4"
     },
     {
-      "login": "philipperemy"
+      "login": "philipperemy",
+      "name": "Philippe Rémy",
+      "avatar": "https://avatars1.githubusercontent.com/u/4516927?v=4"
     }
   ]
 }
